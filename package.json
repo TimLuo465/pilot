@@ -1,0 +1,36 @@
+{
+  "name": "pilot",
+  "version": "1.0.0",
+  "description": "A low code platform",
+  "private": true,
+  "main": "index.js",
+  "scripts": {
+    "prepare": "husky install"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TimLuo465/pilot.git"
+  },
+  "keywords": [
+    "lowcode",
+    "pilot"
+  ],
+  "author": "Tim.Luo",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/TimLuo465/pilot/issues"
+  },
+  "homepage": "https://github.com/TimLuo465/pilot#readme",
+  "workspaces": [
+    "packages/*"
+  ],
+  "devDependencies": {
+    "husky": "^8.0.3",
+    "lerna": "^6.6.2",
+    "@commitlint/cli": "17.6.1",
+    "@commitlint/config-angular": "17.6.1"
+  },
+  "engines": {
+    "node": ">= 16.14.0"
+  }
+}

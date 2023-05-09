@@ -1,0 +1,33 @@
+{
+  "name": "@pilot/app",
+  "version": "1.0.0",
+  "description": "The frontend of low code application ",
+  "keywords": [
+    "pilot",
+    "lowcode"
+  ],
+  "author": "Tim Luo <1664311406@qq.com>",
+  "homepage": "https://github.com/TimLuo465/pilot/tree/main/packages/app#readme",
+  "license": "MIT",
+  "main": "lib/app.js",
+  "directories": {
+    "lib": "lib",
+    "test": "__tests__"
+  },
+  "files": [
+    "lib"
+  ],
+  "publishConfig": {
+    "registry": "https://registry.npmmirror.com/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TimLuo465/pilot.git"
+  },
+  "scripts": {
+    "test": "node ./__tests__/@pilot/app.test.js"
+  },
+  "bugs": {
+    "url": "https://github.com/TimLuo465/pilot/issues"
+  }
+}
